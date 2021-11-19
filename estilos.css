@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Yuji Syuku', serif;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #f0efeb;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23cddafd' fill-opacity='1'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+}
+.container{
+    width: 70vw;
+    height: 100vw;
+    margin: 2rem auto;
+}
+.container h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+}
+.formulario-contactos{
+    background-color:#dfe7fd;
+    display: block;
+    width: 50%;
+    margin:1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.formulario-contactos input{
+    font-size: 1.5rem;
+    margin: 2rem 3rem;
+    line-height: 3rem;
+    outline: 0;
+    background-color: #e2ece9;
+    border: 0;
+}
+
+.formulario-contactos input:hover{
+    border-bottom: 2px solid white;
+}
+
+.boton-tarea{
+    margin:1rem 1rem;
+    background-color: #98c1d9;
+    border: 0;
+    outline: 0;
+    height: 3rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.listado-tareas{
+    display: flex;
+    flex-direction: column;
+}
+
+.tarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    height: 4rem;
+    margin: 1rem;
+}
+.icono{
+    color: tomato;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+.imagen-ln{
+    height: 60px;
+
+}
+
+.imagen-github{
+    height: 60px;
+}
+footer{
+    background-color: #98c1d9;
+    height: 110px;
+    text-align: center;
+    padding: 25px;
+    color: black;
+    display: flex;
+    justify-content:space-around;
+    font-size: 20px;
+}
